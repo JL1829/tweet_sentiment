@@ -9,9 +9,17 @@ Current Structure:
 ├── LICENSE
 ├── README.md
 ├── requirements.txt
-├── setup.py
-└── tweet_sentiment
-    ├── chatbot
-    ├── dataset
-    └── model
+├── sentiment
+│   ├── __init__.py
+│   ├── chatbot
+│   │   ├── __init__.py
+│   │   └── test.ipynb
+│   ├── dataset
+│   │   ├── __init__.py
+│   │   ├── load_dataset.py
+│   │   └── test.ipynb
+│   ├── logging_config.py
+│   └── model
+│       └── __init__.py
+└── setup.py
 ```
