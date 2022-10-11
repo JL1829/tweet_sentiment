@@ -396,3 +396,8 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+.env
+.csv
+sentiment.egg-info
+dist
+build
