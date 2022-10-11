@@ -9,6 +9,7 @@ setup(
     install_requires=[
         "pymongo==3.12.0",
         "numpy==1.23.1",
-        "pandas==1.4.4"
+        "pandas==1.4.4",
+        "snscrape"
     ]
 )
