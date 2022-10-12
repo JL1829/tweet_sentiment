@@ -401,3 +401,6 @@ FodyWeavers.xsd
 sentiment.egg-info
 dist
 build
+
+*.csv
+*.ipynb
