@@ -5,3 +5,6 @@ python-dotenv~=0.21.0
 tweepy~=4.10.1
 tqdm==4.64.1
 scikit-learn~=0.22.1
+lightgbm~=3.1.1
+sentiment~=0.0.1
+numpy~=1.21.4
