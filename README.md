@@ -13,7 +13,6 @@ Current Structure:
 |   |-- chatbot
 |   |   |-- README.md
 |   |   |-- __init__.py
-|   |   `-- dataset_example.ipynb
 |   |-- dataset
 |   |   |-- README.md
 |   |   |-- __init__.py
