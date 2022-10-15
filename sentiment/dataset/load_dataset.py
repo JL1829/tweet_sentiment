@@ -44,11 +44,19 @@ class LoadDataset:
                  n_rows: Union[int, str, float] = 10000,
                  tokenizer: Callable = None) -> None:
         self.tokenizer = tokenizer
-        self.client = MongoClient(
-            MONGO_URL,
-            username=PYMONGO_USERNAME,
-            password=PYMONGO_PASSWORD
-        )
+        if PYMONGO_USERNAME == "admin":
+            self.client = MongoClient(
+                MONGO_URL,
+                username=PYMONGO_USERNAME,
+                password=PYMONGO_PASSWORD
+            )
+        else:
+            self.client = MongoClient(
+                MONGO_URL,
+                username=PYMONGO_USERNAME,
+                password=PYMONGO_PASSWORD,
+                authSource=database_name
+            )
         self.db = self.client[database_name]
         self.collection = self.db[collection_name]
         self.max_rows = self.collection.count_documents({})
