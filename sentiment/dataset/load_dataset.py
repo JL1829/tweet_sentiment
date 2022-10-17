@@ -42,7 +42,8 @@ class LoadDataset:
     def __init__(self, database_name: str,
                  collection_name: str,
                  n_rows: Union[int, str, float] = 10000,
-                 tokenizer: Callable = None) -> None:
+                 tokenizer: Callable = None,
+                 column_name: str = "Text") -> None:
         self.tokenizer = tokenizer
         if PYMONGO_USERNAME == "admin":
             self.client = MongoClient(
@@ -60,6 +61,7 @@ class LoadDataset:
         self.db = self.client[database_name]
         self.collection = self.db[collection_name]
         self.max_rows = self.collection.count_documents({})
+        self.column_name = column_name
         if isinstance(n_rows, int):
             if n_rows <= self.max_rows:
                 self.n_rows = n_rows
@@ -105,14 +107,11 @@ class LoadDataset:
             if not self.tokenizer:
                 yield document
             else:
-                if "Text" in document.keys():
-                    document["token"] = self.tokenizer(document["Text"])
-                    yield document
-                elif "Tweet" in document.keys():
-                    document["token"] = self.tokenizer(document["Tweet"])
+                if self.column_name in document.keys():
+                    document["token"] = self.tokenizer(document[self.column_name])
                     yield document
                 else:
-                    raise KeyError("Text or Tweet can't find in document")
+                    raise KeyError("Text Column cannot find in document")
 
     def to_pandas(self):
         """
@@ -121,9 +120,16 @@ class LoadDataset:
         logger.info(
             f"Returning Pandas DataFrame with maximum row: {self.n_rows}")
         cursor = self.collection.find().limit(limit=self.n_rows)
-        documents = [doc for doc in tqdm(cursor, total=self.n_rows)]
-        return pd.DataFrame(documents)
-
+        if not self.tokenizer:
+            documents = [doc for doc in tqdm(cursor, total=self.n_rows)]
+            return pd.DataFrame(documents)
+        if self.tokenizer:
+            documents = []
+            for doc in tqdm(cursor, total=self.n_rows):
+                doc["token"] = self.tokenizer(doc[self.column_name])
+                documents.append(doc)
+            return pd.DataFrame(documents)
+        
     def tokenize(self):
         raise NotImplementedError
 
@@ -131,6 +137,12 @@ class LoadDataset:
         raise NotImplementedError
 
     def update_many(self):
+        raise NotImplementedError
+
+    def insert_one(self):
+        raise NotImplementedError
+
+    def insert_many(self):
         raise NotImplementedError
 
 
