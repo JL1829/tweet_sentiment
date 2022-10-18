@@ -15,6 +15,7 @@ setup(
         "tweepy",
         "tqdm",
         "scikit-learn",
-        "lightgbm"
+        "lightgbm",
+        "nltk"
     ]
 )

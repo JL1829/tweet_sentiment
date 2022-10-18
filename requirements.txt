@@ -12,3 +12,4 @@ transformers~=4.23.1
 datasets~=2.6.0
 torch~=1.12.1
 evaluate~=0.3.0
+nltk
