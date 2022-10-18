@@ -1,6 +1,8 @@
-# Dataset loading package
+# Dataset Related Sub-Package
 
-This subpackage intend to make connection to MongoDB datset service related code
+## Dataset loading
+
+This subpackage intend to make connection to MongoDB dataset service related code
 
 How to use: 
 
@@ -62,4 +64,27 @@ from tqdm import tqdm
 
 for item in tqdm(dataset, total=len(dataset)):
     print(item)
+```
+
+
+## Tokenizer
+
+Currently, have implement a simple tokenizer class called `SimpleTokenizer` to accomplish the basic tokenization process.
+It does: 
+- Load `nltk.TweetTokenizer()`
+- Load `nltk.stem.SnowballStemmer()`, and `nltk.stem.WordNetLemmatizer()`
+- Load `nltk.corpus.stopwords`
+- Clean up `time`, `url`, `email` in the origin text
+- Implement `__call__` magic method to tokenize the incoming text. 
+
+For Example: 
+```python
+>>> from sentiment.dataset.tokenizer import SimpleTokenizer
+>>> simple_text = 'Bukit Merah HDB branch closes temporarily after second employee tests positive for '\
+    'COVID-19 https://t.co/yaMECYuNIN https://t.co/kz7BNBzjez '
+>>> tokenizer = SimpleTokenizer()
+>>> tokens = tokenizer(simple_text)
+>>> tokens
+['bukit', 'merah', 'hdb', 'branch', 'close', 'temporarily', 'second', 'employee', 'test', 'positive', 'covid',
+'19', 'URL', 'URL']
 ```
