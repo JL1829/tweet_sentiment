@@ -126,7 +126,7 @@ class LoadDataset:
         if self.tokenizer:
             documents = []
             for doc in tqdm(cursor, total=self.n_rows):
-                doc["token"] = self.tokenizer(doc[self.column_name])
+                doc["tokens"] = self.tokenizer(doc[self.column_name])
                 documents.append(doc)
             return pd.DataFrame(documents)
         
