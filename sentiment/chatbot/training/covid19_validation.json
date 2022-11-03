@@ -1,0 +1,184 @@
+[
+  {
+    "answers": {
+      "answer_start": [
+        0
+      ],
+      "text": [
+        "The ART kits will be progressively delivered starting from 18 July 2022 As there are many households, you may only receive your kits a few weeks later. If you need an ART self-test kit urgently, you may consider purchasing it at various retails pharmacies, retail shops or via e-commerce platforms."
+      ]
+    },
+    "context": "The ART kits will be progressively delivered starting from 18 July 2022 As there are many households, you may only receive your kits a few weeks later. If you need an ART self-test kit urgently, you may consider purchasing it at various retails pharmacies, retail shops or via e-commerce platforms.",
+    "id": 6,
+    "question": "My household has yet to receive the ART kits from the third distribution. Why?",
+    "title": "ART Distribution"
+  },
+  {
+    "answers": {
+      "answer_start": [
+        0
+      ],
+      "text": [
+        "MOH will no longer issue Health Risk Notice from 26 Apr 2022 and by extension, close contacts will not be whitelisted for ART kit collection from vending machines.You may self-purchase ART kits from retail pharmacies. If you are staying in a hotel, you may wish to approach the hotel concierge for assistance."
+      ]
+    },
+    "context": "MOH will no longer issue Health Risk Notice from 26 Apr 2022 and by extension, close contacts will not be whitelisted for ART kit collection from vending machines.You may self-purchase ART kits from retail pharmacies. If you are staying in a hotel, you may wish to approach the hotel concierge for assistance.",
+    "id": 16,
+    "question": "I am a close contact. Where can I collect the ART kits from the vending machines? Where can I purchase ART kits?",
+    "title": "Close contacts"
+  },
+  {
+    "answers": {
+      "answer_start": [
+        0
+      ],
+      "text": [
+        "There is no provision for compensation for time away from work as one can leave one\u2019s place of residence for work as long as one has self-tested ART negative."
+      ]
+    },
+    "context": "There is no provision for compensation for time away from work as one can leave one\u2019s place of residence for work as long as one has self-tested ART negative.",
+    "id": 22,
+    "question": "I am a close contact and can I claim compensation for the time lost at work due to self-isolation?",
+    "title": "Close contacts"
+  },
+  {
+    "answers": {
+      "answer_start": [
+        0
+      ],
+      "text": [
+        "Organisations are allowed to collect, use, and disclose personal data of visitors to premises for purposes of contact tracing and other response measures for COVID-19. They may collect visitors' NRIC, FIN or passport numbers where it is necessary for this purpose. This is pursuant to sections 1(b) of the Second, Third and Fourth Schedules to the Personal Data Protection Act (PDPA), as this is necessary to respond to an emergency that threatens the life, health or safety of other individuals. However, they must also comply with the Data Protection Provisions of the PDPA. Such as making reasonable security arrangements to protect the personal data in their possession from unauthorised access or disclosure (e.g. Ensure visitor logbooks are kept secured and not visible to other visitors), and ensuring that the personal data is not used for any other purposes without consent or authorisation under the law. Organisations should also erase the data when it is no longer needed for contact tracing-related purposes."
+      ]
+    },
+    "context": "Organisations are allowed to collect, use, and disclose personal data of visitors to premises for purposes of contact tracing and other response measures for COVID-19. They may collect visitors' NRIC, FIN or passport numbers where it is necessary for this purpose. This is pursuant to sections 1(b) of the Second, Third and Fourth Schedules to the Personal Data Protection Act (PDPA), as this is necessary to respond to an emergency that threatens the life, health or safety of other individuals. However, they must also comply with the Data Protection Provisions of the PDPA. Such as making reasonable security arrangements to protect the personal data in their possession from unauthorised access or disclosure (e.g. Ensure visitor logbooks are kept secured and not visible to other visitors), and ensuring that the personal data is not used for any other purposes without consent or authorisation under the law. Organisations should also erase the data when it is no longer needed for contact tracing-related purposes.",
+    "id": 34,
+    "question": "Can organisations collect personal data of visitors for contact tracing and other COVID-19 measures?",
+    "title": "General Concerns"
+  },
+  {
+    "answers": {
+      "answer_start": [
+        0
+      ],
+      "text": [
+        "Yes, you have read the ART test instructions correctly. There is no need to keep the ART self-test kits over several tests to show that the result was finally negative. If there is a need to show the final negative test result to your employer or school, you can take a picture of the final negative result. Self-swab patients are advised to put the swab, test device and tube in a bag, seal it and dispose of it each time in the trash bin, immediately after checking the test result according to the manufacturer\u2019s instructions per your specific test kit."
+      ]
+    },
+    "context": "Yes, you have read the ART test instructions correctly. There is no need to keep the ART self-test kits over several tests to show that the result was finally negative. If there is a need to show the final negative test result to your employer or school, you can take a picture of the final negative result. Self-swab patients are advised to put the swab, test device and tube in a bag, seal it and dispose of it each time in the trash bin, immediately after checking the test result according to the manufacturer\u2019s instructions per your specific test kit.",
+    "id": 48,
+    "question": "My friend saved his ART+ kits over a few days to take a photo. Is this right? I read that used kits should be bagged and disposed of after each swab.",
+    "title": "Getting Tested"
+  },
+  {
+    "answers": {
+      "answer_start": [
+        0
+      ],
+      "text": [
+        "Yes, you and your household members can be on the Home Recovery Programme (HRP) together. However, those on HRP should isolate themselves from those who are not on HRP."
+      ]
+    },
+    "context": "Yes, you and your household members can be on the Home Recovery Programme (HRP) together. However, those on HRP should isolate themselves from those who are not on HRP.",
+    "id": 56,
+    "question": "Besides myself, my household members are also on the Home Recovery Programme (HRP). Can we be on the HRP together?",
+    "title": "I am unwell"
+  },
+  {
+    "answers": {
+      "answer_start": [
+        0
+      ],
+      "text": [
+        "If you have any of the following symptoms, your condition is considered severe, and you will require urgent medical care. Please note that this list is non-exhaustive, and your doctor will exercise his own clinical judgement in assessing your condition:Chest pain; Shortness of breath; Sudden weakness over one side of body, slurring of speech, drooping of the face, severe headache that does not get better with usual pain medication; Chest palpitations; Sudden onset of painful, red or swollen limbs; If you have the following symptoms, you should also consult your doctor for further advice: Persistent diarrhoea and vomiting/ unable to take fluids Fever for \u22653 days."
+      ]
+    },
+    "context": "If you have any of the following symptoms, your condition is considered severe, and you will require urgent medical care. Please note that this list is non-exhaustive, and your doctor will exercise his own clinical judgement in assessing your condition:Chest pain; Shortness of breath; Sudden weakness over one side of body, slurring of speech, drooping of the face, severe headache that does not get better with usual pain medication; Chest palpitations; Sudden onset of painful, red or swollen limbs; If you have the following symptoms, you should also consult your doctor for further advice: Persistent diarrhoea and vomiting/ unable to take fluids Fever for \u22653 days.",
+    "id": 63,
+    "question": "How do I know if my condition is mild or severe?",
+    "title": "I am unwell"
+  },
+  {
+    "answers": {
+      "answer_start": [
+        0
+      ],
+      "text": [
+        "No. Leaving your declared isolation venue before the isolation period is an offence under the Infectious Diseases Act. Enforcement action may be taken, including a fine of up to $10,000 and/or imprisonment of up to 6 months. You may also be denied boarding / entry into other countries/regions, depending on their border measures."
+      ]
+    },
+    "context": "No. Leaving your declared isolation venue before the isolation period is an offence under the Infectious Diseases Act. Enforcement action may be taken, including a fine of up to $10,000 and/or imprisonment of up to 6 months. You may also be denied boarding / entry into other countries/regions, depending on their border measures.",
+    "id": 82,
+    "question": "Can I depart Singapore if I have yet to finish my isolation period?",
+    "title": "Traveller to SG"
+  },
+  {
+    "answers": {
+      "answer_start": [
+        0
+      ],
+      "text": [
+        "Individuals who had previously tested positive for COVID-19 on a professionally administered or supervised test at a healthcare provider or test centre in Singapore may obtain a digital recovery certificate (\u2018Recovery HealthCert\u2019) from Notarise."
+      ]
+    },
+    "context": "Individuals who had previously tested positive for COVID-19 on a professionally administered or supervised test at a healthcare provider or test centre in Singapore may obtain a digital recovery certificate (\u2018Recovery HealthCert\u2019) from Notarise.",
+    "id": 90,
+    "question": "What documents can I use to show that I have recovered from COVID-19 for travel purposes?",
+    "title": "Vaccine and Booster"
+  },
+  {
+    "answers": {
+      "answer_start": [
+        0
+      ],
+      "text": [
+        "If you have received your second mRNA dose more than 150 days ago, you are eligible to walk in to any vaccination centre to receive your booster dose."
+      ]
+    },
+    "context": "If you have received your second mRNA dose more than 150 days ago, you are eligible to walk in to any vaccination centre to receive your booster dose.",
+    "id": 105,
+    "question": "I have not received my SMS to take the mRNA booster (third dose). What should I do?",
+    "title": "Vaccine and Booster"
+  },
+  {
+    "answers": {
+      "answer_start": [
+        0
+      ],
+      "text": [
+        "If you are well and test positive, or your condition has been assessed by a doctor to be mild, you will be able to self-administer an ART test after 72 hours and exit self-isolation if you test negative. ART tests can detect patients with high viral loads.  Those who tested ART negative are most likely to be non-infectious, hence if you tested ART negative you can exit self-isolation."
+      ]
+    },
+    "context": "If you are well and test positive, or your condition has been assessed by a doctor to be mild, you will be able to self-administer an ART test after 72 hours and exit self-isolation if you test negative. ART tests can detect patients with high viral loads.  Those who tested ART negative are most likely to be non-infectious, hence if you tested ART negative you can exit self-isolation.",
+    "id": 129,
+    "question": "How can I be sure that I am no longer infectious when I exit self-isolation?",
+    "title": "Well/assessed mild"
+  },
+  {
+    "answers": {
+      "answer_start": [
+        0
+      ],
+      "text": [
+        "The isolation starts from the date of the first positive Polymerase Chain Reaction (PCR) and/ or Antigen Rapid Test (ART) result."
+      ]
+    },
+    "context": "The isolation starts from the date of the first positive Polymerase Chain Reaction (PCR) and/ or Antigen Rapid Test (ART) result.",
+    "id": 146,
+    "question": "I am asymptomatic but tested ART-positive. I took a PCR test and have now tested positive for COVID-19 (C+). When is the start of my isolation?",
+    "title": "Well/assessed mild"
+  },
+  {
+    "answers": {
+      "answer_start": [
+        0
+      ],
+      "text": [
+        "Currently, there is no evidence of animal-to-human transmission in Singapore. Hence, there is no known risk of people being infected by COVID-19 through their pets or other animals."
+      ]
+    },
+    "context": "Currently, there is no evidence of animal-to-human transmission in Singapore. Hence, there is no known risk of people being infected by COVID-19 through their pets or other animals.",
+    "id": 161,
+    "question": "Evidence suggests that COVID-19 may have originated from animals. Do I need to avoid live animals locally, including my pets?",
+    "title": "General Info COVID19"
+  }
+]

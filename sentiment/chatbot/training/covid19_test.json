@@ -1,0 +1,114 @@
+[
+  {
+    "answers": {
+      "answer_start": [
+        0
+      ],
+      "text": [
+        "If your self-test result is positive, refer to covid.gov.sg."
+      ]
+    },
+    "context": "If your self-test result is positive, refer to covid.gov.sg.",
+    "id": 4,
+    "question": "If I test ART-positive, what should I do?",
+    "title": "ART Distribution"
+  },
+  {
+    "answers": {
+      "answer_start": [
+        0
+      ],
+      "text": [
+        "Should you need to leave your place of accommodation you should only do so when you self-test ART negative. If at any time you test positive, follow the instructions for Protocol 2."
+      ]
+    },
+    "context": "Should you need to leave your place of accommodation you should only do so when you self-test ART negative. If at any time you test positive, follow the instructions for Protocol 2.",
+    "id": 11,
+    "question": "I am a close contact to a Covid-positive individual, can I go out to buy food, see a doctor, or go to work or school?",
+    "title": "Close contacts"
+  },
+  {
+    "answers": {
+      "answer_start": [
+        0
+      ],
+      "text": [
+        "To verify the authenticity of calls from MOH, you may wish to: Take down the number which the caller is calling from. Call the MOH COVID-19 General Enquiries Hotline at 1800 333 9999 and provide them the caller\u2019s number. Please note that MOH will not ask for your financial details when conducting tracing or divulge any details of confirmed cases. We will also not ask you to collect documents from us, unless you have existing business with MOH."
+      ]
+    },
+    "context": "To verify the authenticity of calls from MOH, you may wish to: Take down the number which the caller is calling from. Call the MOH COVID-19 General Enquiries Hotline at 1800 333 9999 and provide them the caller\u2019s number. Please note that MOH will not ask for your financial details when conducting tracing or divulge any details of confirmed cases. We will also not ask you to collect documents from us, unless you have existing business with MOH.",
+    "id": 30,
+    "question": "I have received a call from MOH saying that they are contacting me for contact tracing purposes. How do I verify if that is true?",
+    "title": "General Concerns"
+  },
+  {
+    "answers": {
+      "answer_start": [
+        0
+      ],
+      "text": [
+        "You may refer to the instructions on the Antigen Rapid Test (ART) self-test kits."
+      ]
+    },
+    "context": "You may refer to the instructions on the Antigen Rapid Test (ART) self-test kits.",
+    "id": 42,
+    "question": "How do I use the Antigen Rapid Test (ART) self-test kits?",
+    "title": "Getting Tested"
+  },
+  {
+    "answers": {
+      "answer_start": [
+        0
+      ],
+      "text": [
+        "Click here  to find out if you are eligible for Home Recovery. If you are not suitable for Home Recovery but wish to be on the programme, you may put in an appeal by calling 6874 4939."
+      ]
+    },
+    "context": "Click here  to find out if you are eligible for Home Recovery. If you are not suitable for Home Recovery but wish to be on the programme, you may put in an appeal by calling 6874 4939.",
+    "id": 54,
+    "question": "I am not eligible for Home Recovery Programme but I would like to submit an appeal. How may I do so?",
+    "title": "I am unwell"
+  },
+  {
+    "answers": {
+      "answer_start": [
+        0
+      ],
+      "text": [
+        "Singapore accepts (a) Polymerase Chain Reaction (PCR) tests, (b) professionally administered Antigen Rapid Tests (ART) by licensed medical providers, or (c) remotely supervised self-swab (RSSS) ART by approved Singapore providers taken within two days before departure to Singapore with a negative result as valid PDT. Singapore Citizens, Permanent Residents and Work Pass Holders (including Long Term Pass Holders) who wish to tap on the RSSS Art service can contact any of the RSSS-approved service providers as listed here \u2013 this is regardless of the country that you are travelling from. Do note that the RSSS ART should only be used for the fulfilment of PDT requirement for travel to Singapore. ART kits that are approved for distribution or use in Singapore (as listed here ) or the relevant country or region can be used. All travellers are responsible for complying with the regulations and other local requirements of the countries they are departing from."
+      ]
+    },
+    "context": "Singapore accepts (a) Polymerase Chain Reaction (PCR) tests, (b) professionally administered Antigen Rapid Tests (ART) by licensed medical providers, or (c) remotely supervised self-swab (RSSS) ART by approved Singapore providers taken within two days before departure to Singapore with a negative result as valid PDT. Singapore Citizens, Permanent Residents and Work Pass Holders (including Long Term Pass Holders) who wish to tap on the RSSS Art service can contact any of the RSSS-approved service providers as listed here \u2013 this is regardless of the country that you are travelling from. Do note that the RSSS ART should only be used for the fulfilment of PDT requirement for travel to Singapore. ART kits that are approved for distribution or use in Singapore (as listed here ) or the relevant country or region can be used. All travellers are responsible for complying with the regulations and other local requirements of the countries they are departing from.",
+    "id": 83,
+    "question": "I will be returning to Singapore from overseas and wish to fulfil Singapore\u2019s Pre-Departure Testing (PDT) requirements. How do I go about this?",
+    "title": "Traveller to SG"
+  },
+  {
+    "answers": {
+      "answer_start": [
+        0
+      ],
+      "text": [
+        "In general, a fully vaccinated person is unlikely to be infectious from Day 7 and may exit self-isolation. Nonetheless, if you remain symptomatic and unwell, as an added precaution, you are advised to minimise social interactions where possible until you feel better. If your symptoms worsen or do not improve, please see a doctor or call 995 in emergency situations."
+      ]
+    },
+    "context": "In general, a fully vaccinated person is unlikely to be infectious from Day 7 and may exit self-isolation. Nonetheless, if you remain symptomatic and unwell, as an added precaution, you are advised to minimise social interactions where possible until you feel better. If your symptoms worsen or do not improve, please see a doctor or call 995 in emergency situations.",
+    "id": 144,
+    "question": "I am fully vaccinated. Can I still leave my home and carry on with my social activities after 12pm on Day 7 of isolation if I am still symptomatic*?",
+    "title": "Well/assessed mild"
+  },
+  {
+    "answers": {
+      "answer_start": [
+        0
+      ],
+      "text": [
+        "Hi! I'm COVID-19. How may I assist you today?"
+      ]
+    },
+    "context": "Hi! I'm COVID-19. How may I assist you today?",
+    "id": 170,
+    "question": "Good afternoon!",
+    "title": "Greeting"
+  }
+]
