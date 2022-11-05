@@ -1,10 +1,5 @@
-from flask import Flask
-from flask_pymongo import PyMongo
-from flask import Flask, render_template, request, url_for, redirect
-from pymongo import MongoClient
-from .response_generator import generate_response
-from transformers import AutoTokenizer, AutoModel, pipeline,AutoModelForQuestionAnswering
-
+from flask import Flask, render_template, request
+from response_generator import generate_response
 
 app = Flask(__name__)
 
